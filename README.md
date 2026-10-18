@@ -142,3 +142,4 @@ Berikut panduan jawaban untuk **Bagian 12 Pertanyaan Analisis** pada LKPD:
 1. **Bukti Refresh Database:** Tambah atau ubah data pendaftaran langsung di MySQL / phpMyAdmin Project A, lalu muat ulang (`F5`) halaman di Project B: data pada tabel frontend otomatis berubah mengikuti database A.
 2. **Bukti Matikan Server API:** Matikan terminal Project A (`Ctrl + C`), lalu refresh Project B: Project B langsung menampilkan banner peringatan ramah bahwa server API tidak dapat dihubungi, membuktikan B selalu bergantung pada respons jaringan A.
 3. **Bukti Kesesuaian Postman:** Respons JSON pada Postman `GET /api/pendaftaran-osis` memiliki jumlah dan isi atribut yang identik dengan baris data pada tabel HTML Project B.
+# Pendaftaran-Osis-API
